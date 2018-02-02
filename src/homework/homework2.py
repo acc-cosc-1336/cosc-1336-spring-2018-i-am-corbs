@@ -54,7 +54,7 @@ def get_time(hour, minutes, seconds, time_type, meridiem='AM'):
     if time_type == 24:
         time = str(hour) + ':' + str(minutes) + ':' + str(seconds)
     if time_type == 12:
-        time = str(hour) + ':' + str(minutes) + ':' + str(seconds) + '' + (meridiem)
+        time = str(hour) + ':' + str(minutes) + ':' + str(seconds) + ' ' + (meridiem)
 
 
     #results
